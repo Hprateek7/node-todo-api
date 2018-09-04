@@ -1,5 +1,5 @@
 {
-  "name": "todo-api",
+  "name": "node-todo-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,21 +9,21 @@
     "test-watch": "nodemon --exec \"npm test\""
   },
   "engines": {
-    "node": "10.4.1"
+    "node": "6.2.2"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "lodash": "^4.17.10",
-    "mongodb": "^2.2.33",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.15.0",
+    "mongodb": "^2.2.5",
     "mongoose": "^4.5.9"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4",
-    "supertest": "^3.1.0",
-    "mocha": "^5.2.0",
-    "expect": "^23.5.0"
+    "expect": "^1.20.2",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2",
+    "supertest": "^2.0.0"
   }
 }
